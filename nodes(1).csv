@@ -1,0 +1,30 @@
+node_id,label,name,gene_symbol,organism,source,parent_gene,uniprot_id,pathway_db_id,disease_ontology_id,drugbank_id,uberon_id,go_id
+G1,Gene,TP53,TP53,Homo sapiens,Ensembl,None,NA,NA,NA,NA,NA,NA
+G2,Gene,BRCA1,BRCA1,Homo sapiens,Ensembl,None,NA,NA,NA,NA,NA,NA
+G3,Gene,BRCA2,BRCA2,Homo sapiens,Ensembl,None,NA,NA,NA,NA,NA,NA
+G4,Gene,EGFR,EGFR,Homo sapiens,Ensembl,None,NA,NA,NA,NA,NA,NA
+G5,Gene,MYC,MYC,Homo sapiens,Ensembl,None,NA,NA,NA,NA,NA,NA
+T1,Transcript,TP53-201,None,Homo sapiens,Ensembl,TP53,NA,NA,NA,NA,NA,NA
+T2,Transcript,BRCA1-201,None,Homo sapiens,Ensembl,BRCA1,NA,NA,NA,NA,NA,NA
+P1,Protein,P53 protein,None,Homo sapiens,UniProt,TP53,P04637,NA,NA,NA,NA,NA
+P2,Protein,BRCA1 protein,None,Homo sapiens,UniProt,BRCA1,P38398,NA,NA,NA,NA,NA
+PW1,Pathway,DNA damage response,None,NA,Reactome,None,NA,R-HSA-73894,NA,NA,NA,NA
+D1,Disease,Breast carcinoma,None,NA,DisGeNET,None,NA,NA,DOID:3459,NA,NA,NA
+DR1,Drug,Erlotinib,None,NA,DrugBank,None,NA,NA,NA,DB00530,NA,NA
+TS1,Tissue,Breast,None,Homo sapiens,GTEx,None,NA,NA,NA,NA,UBERON:0000310,NA
+GO1,GO_Term,DNA repair,None,NA,GeneOntology,None,NA,NA,NA,NA,NA,GO:0006281
+TF1,TranscriptionFactor,MYC TF,MYC,Homo sapiens,TRRUST,None,NA,NA,NA,NA,NA,NA
+GF1,GeneFamily,BRCA family,None,NA,HGNC,None,NA,NA,NA,NA,NA,NA
+G6,Gene,PARP1,PARP1,Homo sapiens,Ensembl,None,NA,NA,NA,NA,NA,NA
+P3,Protein,EGFR protein,None,Homo sapiens,UniProt,EGFR,P00533,NA,NA,NA,NA,NA
+P4,Protein,PARP1 protein,None,Homo sapiens,UniProt,PARP1,P09874,NA,NA,NA,NA,NA
+PC1,ProteinComplex,EGFR:ERBB2 heterodimer,None,NA,Reactome,None,NA,NA,NA,NA,NA,NA
+PW2,Pathway,EGFR signaling pathway,None,NA,Reactome,None,NA,R-HSA-177929,NA,NA,NA,NA
+PW3,Pathway,Homologous recombination,None,NA,Reactome,None,NA,R-HSA-5685942,NA,NA,NA,NA
+MET1,Metabolite,ATP,None,NA,ChEBI,None,NA,NA,NA,NA,NA,NA
+DR2,Drug,Olaparib,None,NA,DrugBank,None,NA,NA,NA,DB09073,NA,NA
+DR3,Drug,Paclitaxel,None,NA,DrugBank,None,NA,NA,NA,DB01229,NA,NA
+PR1,GeneExpressionProfile,EGFR inhibitor response signature,None,NA,LINCS,None,NA,NA,NA,NA,NA,NA
+EP1,ProteomeProfile,DNA damage response phosphoproteome,None,NA,CPTAC,None,NA,NA,NA,NA,NA,NA
+HPO1,HPO,Breast cancer susceptibility,None,NA,HPO,None,NA,NA,NA,NA,NA,HPO:0003002
+RNA1,RNATherapeutic,siBRCA1,None,NA,Custom,BRCA1,NA,NA,NA,NA,NA,NA
